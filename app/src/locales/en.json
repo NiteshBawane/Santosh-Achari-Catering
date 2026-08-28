@@ -1,0 +1,156 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "menu": "Menu",
+    "testimonials": "Testimonials",
+    "gallery": "Gallery",
+    "contact": "Contact",
+    "getQuote": "Get a Quote"
+  },
+  "hero": {
+    "authentic": "Authentic",
+    "indian": "Indian",
+    "catering": "Catering",
+    "subtitle": "Bringing the rich flavors of India to your special occasions. From intimate gatherings to grand celebrations, we create unforgettable culinary experiences.",
+    "exploreMenu": "Explore Our Menu",
+    "getQuote": "Get a Quote",
+    "yearsExperience": "Years of Experience",
+    "eventsCatered": "Events Catered",
+    "signatureDishes": "Signature Dishes"
+  },
+  "about": {
+    "label": "About Us",
+    "title": "Crafting Culinary Memories Since 1991",
+    "p1": "For over two decades, we've been passionate about sharing the authentic taste of India. Our chefs bring generations of culinary wisdom, using traditional recipes passed down through families, combined with the finest locally-sourced ingredients.",
+    "p2": "From intimate family gatherings to grand wedding celebrations, we pour our heart into every dish we create. Our commitment to quality, authenticity, and exceptional service has made us the preferred choice for Indian catering across the region.",
+    "expertChefs": "Expert Chefs",
+    "expertChefsDesc": "Generations of culinary wisdom",
+    "madeWithLove": "Made with Love",
+    "madeWithLoveDesc": "Every dish crafted with care",
+    "premiumQuality": "Premium Quality",
+    "premiumQualityDesc": "Finest ingredients sourced",
+    "fullService": "Full Service",
+    "fullServiceDesc": "From setup to cleanup",
+    "ourServices": "Our Services",
+    "yearsOfExcellence": "Years of Excellence"
+  },
+  "services": {
+    "label": "Our Services",
+    "title": "What We Offer",
+    "desc": "Comprehensive catering solutions tailored to your specific needs, ensuring every event is a memorable success.",
+    "exploreMenu": "Explore Our Full Menu",
+    "ctaDesc": "Not sure what you need? Let us help you plan the perfect menu for your event.",
+    "wedding": { "title": "Wedding Catering", "desc": "Make your special day truly magical with our authentic wedding feasts" },
+    "corporate": { "title": "Corporate Events", "desc": "Impress your clients and team with our professional catering services" },
+    "private": { "title": "Private Parties", "desc": "Intimate gatherings made special with our customized menu options" },
+    "festival": { "title": "Festival Catering", "desc": "Celebrate traditions with our specialized festive menu offerings" },
+    "setup": { "title": "From Setup to Cleanup", "desc": "Complete end-to-end service so you can enjoy your event" },
+    "custom": { "title": "Custom Menus", "desc": "Personalized menus to accommodate all dietary preferences" }
+  },
+  "menu": {
+    "label": "Our Menu",
+    "title": "Signature Dishes",
+    "desc": "A taste of our most beloved creations, crafted with authentic recipes and the finest ingredients.",
+    "viewFull": "View Full Menu",
+    "chefsPick": "CHEF'S PICK",
+    "items": {
+      "palakPatwadi": { "name": "Palak Patwadi", "desc": "Traditional Maharashtrian delicacy in spinach gravy" },
+      "cornPalak": { "name": "Corn Palak", "desc": "Sweet corn kernels cooked in creamy spinach sauce" },
+      "tawaSabji": { "name": "Tawa Sabji", "desc": "Assorted vegetables cooked on an iron griddle with spices" },
+      "paneerHyderabadi": { "name": "Paneer Hyderabadi", "desc": "Rich cottage cheese curry with mint and coriander" },
+      "chickenBiryani": { "name": "Chicken Biryani", "desc": "Fragrant basmati rice cooked with tender chicken and spices" },
+      "muttonCurry": { "name": "Mutton Curry", "desc": "Slow-cooked mutton in authentic spices and rich gravy" },
+      "chineseFood": { "name": "Assorted Chinese Food", "desc": "A fusion of popular Indo-Chinese delicacies" },
+      "gulabJamun": { "name": "Gulab Jamun", "desc": "Warm milk dumplings soaked in rose syrup" }
+    },
+    "categories": {
+      "appetizers": "Appetizers",
+      "mainCourse": "Main Course",
+      "rice": "Rice",
+      "desserts": "Desserts",
+      "beverages": "Beverages"
+    }
+  },
+  "testimonials": {
+    "label": "Testimonials",
+    "title": "What Our Clients Say",
+    "reviews": {
+      "joshi": { "name": "Ramesh & Sunita Joshi", "role": "Wedding Reception", "quote": "The food was absolutely incredible! Our wedding guests are still talking about the authentic Palak Patwadi and Gulab Jamun. The team made our special day truly unforgettable." },
+      "kulkarni": { "name": "Priya Kulkarni", "role": "Corporate Event", "quote": "Professional, punctual, and the food was out of this world. Our corporate event was a huge success thanks to Santosh Achari Catering. The Tawa Sabji was a massive hit!" },
+      "deshmukh": { "name": "The Deshmukh Family", "role": "Housewarming Party", "quote": "Authentic Maharashtrian flavors that reminded us of home. Perfect for our Vastu Shanti. Highly recommend their services for any family function!" },
+      "patil": { "name": "Anand Patil", "role": "Festival Celebration", "quote": "The live food station was the highlight of our festival celebration. Absolutely amazing experience for all our guests with perfect hygiene and taste." }
+    },
+    "stats": {
+      "weddings": "Weddings",
+      "corporate": "Corporate Events",
+      "reviews": "Five Star Reviews",
+      "trust": "Years of Trust"
+    }
+  },
+  "gallery": {
+    "label": "Our Gallery",
+    "title": "A Feast for the Eyes",
+    "desc": "Take a visual journey through our culinary creations and memorable events we've had the pleasure to cater.",
+    "viewAll": "View All Photos"
+  },
+  "contact": {
+    "label": "Get in Touch",
+    "title": "Let's Plan Your Event",
+    "desc": "Ready to create an unforgettable culinary experience? Reach out to us to discuss your event requirements.",
+    "info": {
+      "address": "Ghugus, Chandrapur District, Maharashtra, India",
+      "hours": "Office Hours",
+      "time": "Monday - Sunday: 8:00 AM - 10:00 PM"
+    },
+    "form": {
+      "title": "Send us a Message",
+      "fullName": "Full Name",
+      "namePlaceholder": "Enter your full name",
+      "email": "Email Address",
+      "emailPlaceholder": "yourname@example.com",
+      "phone": "Phone Number",
+      "phonePlaceholder": "Enter 10-digit mobile number",
+      "eventDate": "Event Date",
+      "eventType": "Event Type",
+      "selectEventType": "Select event type",
+      "types": {
+        "wedding": "Wedding",
+        "corporate": "Corporate Event",
+        "private": "Private Party",
+        "festival": "Festival Celebration",
+        "other": "Other Celebration"
+      },
+      "message": "Message",
+      "messagePlaceholder": "Tell us about your event (guest count, menu preference, venue)...",
+      "submit": "Send Message / Inquire Now",
+      "privacyNote": "We respect your privacy. Inquiries are sent directly to bhushandhengle57@gmail.com and our team.",
+      "successTitle": "Thank You!",
+      "successDesc": "Your inquiry has been received. We will get back to you within 24 hours.",
+      "sendViaEmail": "Send via Email App",
+      "sendViaWhatsApp": "Send via WhatsApp"
+    },
+    "muhurat": {
+      "title": "Shubh Muhurat & Date Availability",
+      "subtitle": "Check upcoming auspicious wedding/event dates & booking status",
+      "available": "Available",
+      "fastFilling": "Fast Filling",
+      "booked": "Booked",
+      "clickToSelect": "Click any date to pre-fill your form"
+    }
+  },
+  "footer": {
+    "desc": "Bringing the authentic taste of India to your table. Creating unforgettable culinary experiences for weddings, events, and celebrations in Ghugus and across Maharashtra.",
+    "quickLinks": "Quick Links",
+    "services": "Services",
+    "contact": "Contact Us",
+    "subscribe": "Subscribe for updates & offers",
+    "subscribeBtn": "Subscribe",
+    "rights": "© 2026 Santosh Achari Catering. All rights reserved.",
+    "madeWith": "Made with",
+    "forFoodLovers": "for food lovers",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  }
+}

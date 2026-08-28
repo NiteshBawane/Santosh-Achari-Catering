@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Lato:wght@100;300;400;700;900&family=Meow+Script&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 13%;
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 13%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 13%;
+    --primary: 17 72% 61%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 47 87% 50%;
+    --secondary-foreground: 0 0% 13%;
+    --muted: 0 0% 91%;
+    --muted-foreground: 0 0% 35%;
+    --accent: 17 72% 61%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 72%;
+    --input: 0 0% 72%;
+    --ring: 17 72% 61%;
+    --radius: 0.5rem;
+    
+    /* Custom Brand Colors */
+    --coral: #e47a53;
+    --coral-light: #f19c7c;
+    --coral-dark: #c55e3a;
+    --golden: #eeba10;
+    --golden-light: #f5d458;
+    --golden-dark: #c79a0a;
+    --charcoal: #222222;
+    --gray-dark: #5a5a5a;
+    --gray: #b7b7b7;
+    --gray-light: #e7e7e7;
+    --cream: #fff8f5;
+    
+    /* Animation Easings */
+    --ease-spice: cubic-bezier(0.16, 1, 0.3, 1);
+    --ease-tandoor: cubic-bezier(0.34, 1.56, 0.64, 1);
+    --ease-saffron: cubic-bezier(0.87, 0, 0.13, 1);
+    --ease-masala: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    --ease-cream: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: 'Lato', sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Cormorant Garamond', serif;
+  }
+}
+
+@layer components {
+  .font-script {
+    font-family: 'Meow Script', cursive;
+  }
+  
+  .font-display {
+    font-family: 'Cormorant Garamond', serif;
+  }
+  
+  .font-body {
+    font-family: 'Lato', sans-serif;
+  }
+  
+  .text-gradient {
+    background: linear-gradient(135deg, var(--coral) 0%, var(--golden) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  .bg-coral {
+    background-color: var(--coral);
+  }
+  
+  .bg-golden {
+    background-color: var(--golden);
+  }
+  
+  .bg-cream {
+    background-color: var(--cream);
+  }
+  
+  .text-coral {
+    color: var(--coral);
+  }
+  
+  .text-golden {
+    color: var(--golden);
+  }
+  
+  .border-coral {
+    border-color: var(--coral);
+  }
+  
+  .btn-primary {
+    @apply px-8 py-4 bg-coral text-white font-semibold rounded-full transition-all duration-300;
+  }
+  
+  .btn-primary:hover {
+    background-color: var(--golden);
+    transform: translateY(-2px);
+    box-shadow: 0 10px 30px rgba(238, 186, 16, 0.4);
+  }
+  
+  .btn-secondary {
+    @apply px-8 py-4 border-2 border-coral text-coral font-semibold rounded-full transition-all duration-300;
+  }
+  
+  .btn-secondary:hover {
+    background-color: var(--coral);
+    color: white;
+    transform: translateY(-2px);
+  }
+  
+  .section-label {
+    @apply text-sm font-semibold tracking-widest uppercase text-coral mb-4;
+  }
+  
+  .glass-card {
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  
+  .spice-shadow {
+    box-shadow: 0 10px 40px rgba(228, 122, 83, 0.15);
+  }
+  
+  .spice-shadow-lg {
+    box-shadow: 0 20px 60px rgba(228, 122, 83, 0.25);
+  }
+}
+
+@layer utilities {
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+  
+  .animate-float-delayed {
+    animation: float 6s ease-in-out infinite;
+    animation-delay: 2s;
+  }
+  
+  .animate-pulse-slow {
+    animation: pulse-slow 4s ease-in-out infinite;
+  }
+  
+  .animate-spin-slow {
+    animation: spin 120s linear infinite;
+  }
+  
+  .animate-fade-in {
+    animation: fade-in 0.6s var(--ease-spice) forwards;
+  }
+  
+  .animate-slide-up {
+    animation: slide-up 0.6s var(--ease-spice) forwards;
+  }
+  
+  .animate-scale-in {
+    animation: scale-in 0.5s var(--ease-tandoor) forwards;
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes pulse-slow {
+  0%, 100% {
+    opacity: 0.4;
+  }
+  50% {
+    opacity: 0.8;
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slide-up {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes scale-in {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
